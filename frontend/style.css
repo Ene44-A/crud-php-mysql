@@ -1,0 +1,24 @@
+
+.navbar-collapse>i{
+    font-size: 25px;
+    padding:0 20px;
+}
+.carousel-item{
+    max-height: 40rem;
+}
+
+.container-check{
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: white;
+    border-radius:5px;
+    background: #fbfafa;
+    padding: 15px;
+}
+@media (max-width: 767px) {
+    .navbar-collapse>i{
+      display: none;
+    }
+  }
